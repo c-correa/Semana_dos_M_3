@@ -1,0 +1,16 @@
+/* Estilos básicos */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Arial, sans-serif; background: #f4f4f4; padding: 20px; }
+.container { max-width: 600px; margin: auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+h1 { text-align: center; margin-bottom: 20px; }
+form { display: flex; gap: 10px; margin-bottom: 20px; }
+form input { flex: 1; padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+form button { padding: 8px 16px; border: none; background: #28a745; color: #fff; border-radius: 4px; cursor: pointer; }
+form button:hover { background: #218838; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }
+th { background: #f8f9fa; }
+button.edit { background: #ffc107; color: #212529; border: none; padding: 4px 8px; border-radius: 4px; cursor: pointer; margin-right: 4px; }
+button.delete { background: #dc3545; color: #fff; border: none; padding: 4px 8px; border-radius: 4px; cursor: pointer; }
+button.edit:hover { background: #e0a800; }
+button.delete:hover { background: #c82333; }
